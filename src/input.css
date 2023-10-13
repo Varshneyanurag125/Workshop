@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .accordian-header{
+        @apply cursor-pointer
+    }
+    .accordian-body{
+        @apply max-h-0 overflow-hidden transition-all duration-500 ease-out
+    }
+}
